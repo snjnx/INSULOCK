@@ -19,11 +19,11 @@ export default function BottomTabBar() {
 
   const isDashboard = location.pathname === "/dashboard";
   const isProfile = location.pathname === "/profile";
-  const isReminders = location.pathname === "/reminders" || location.pathname.startsWith("/add-reminder");
+  // const isReminders = location.pathname === "/reminders" || location.pathname.startsWith("/add-reminder");
 
-  const handleRemindersClick = () => {
-    navigate("/reminders");
-  };
+  // const handleRemindersClick = () => {
+  //   navigate("/reminders");
+  // };
 
   return (
     <div className="bg-gradient-to-t from-white via-white to-transparent px-4 py-3 sm:px-6 sm:py-4 lg:px-8 lg:py-6">
@@ -62,7 +62,7 @@ export default function BottomTabBar() {
           </button>
 
           {/* Reminders icon */}
-          <button
+          {/* <button
             onClick={handleRemindersClick}
             className={`flex flex-col items-center p-2 rounded-lg transition-all duration-200 hover:bg-gray-50 ${
               isReminders ? 'bg-blue-50' : ''
@@ -77,16 +77,16 @@ export default function BottomTabBar() {
             }`}>
               Reminders
             </span>
-          </button>
+          </button> */}
 
           {/* Add button */}
-          <button
+          {/* <button
             onClick={handleAddClick}
             className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-insulock-primary rounded-2xl shadow-lg flex items-center justify-center transition-all duration-200 hover:bg-blue-700 hover:scale-105 active:scale-95"
             aria-label="Add Medication"
           >
             <Plus className="w-7 h-7 sm:w-8 sm:h-8 lg:w-10 lg:h-10 text-white" />
-          </button>
+          </button> */}
 
           {/* Profile icon */}
           <button
