@@ -42,21 +42,21 @@ export default function Profile() {
             <div className="space-y-4">
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-2">
-                  Full Name
+                  Medication
                 </label>
                 <input
                   type="text"
-                  placeholder="Sam Pawar"
+                  placeholder="insulin"
                   className="w-full px-3 py-2 border border-black rounded focus:outline-none focus:ring-2 focus:ring-insulock-primary focus:border-transparent"
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-2">
-                  Medication History
+                  Medication time
                 </label>
                 <textarea
-                  placeholder="Enter Medication History"
+                  placeholder="8am and 6pm "
                   rows={3}
                   className="w-full px-3 py-2 border border-black rounded focus:outline-none focus:ring-2 focus:ring-insulock-primary focus:border-transparent resize-none"
                 />
@@ -64,11 +64,11 @@ export default function Profile() {
 
               <div>
                 <label className="block text-sm font-bold text-gray-700 mb-2">
-                  Emergency Contact
+                  Medication dosage
                 </label>
                 <input
                   type="tel"
-                  placeholder="Enter emergency contact number"
+                  placeholder="12mg"
                   className="w-full px-3 py-2 border border-black rounded focus:outline-none focus:ring-2 focus:ring-insulock-primary focus:border-transparent"
                 />
               </div>
